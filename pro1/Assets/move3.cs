@@ -40,7 +40,7 @@ public class move3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log( "upload test");
+        Debug.Log( "upload");
         if (controls.player.disable.ReadValue<float>()!=0)
         {
             Moveable = false;
